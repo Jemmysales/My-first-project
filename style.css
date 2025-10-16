@@ -1,148 +1,119 @@
-/* updated background color */
+/* --- Page background --- */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background-color:#00ff00;
+  background: linear-gradient(to bottom, #f0f4ff, #dbeafe);
   color: #333;
 }
 
-/* ====== HEADER SECTION ====== */
+/* --- Header section --- */
 header {
-  background: #222;
-  color: #fff;
-  padding: 20px 0;
+  background-color: #1e3a8a; /* Deep blue */
+  color: white;
+  padding: 20px;
   text-align: center;
 }
 
 header h1 {
-  margin: 0;
-  font-size: 2rem;
-  letter-spacing: 2px;
+  color: #facc15; /* Yellow for “My Portfolio” */
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 10px 0 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-nav ul li {
+nav a {
+  color: white;
+  text-decoration: none;
   margin: 0 15px;
 }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
+nav a:hover {
+  color: #facc15; /* Yellow when hovering */
 }
 
-nav ul li a:hover {
-  color: #f9b208;
+/* --- Hello section --- */
+.hero {
+  text-align: center;
+  background: linear-gradient(to right, #3b82f6, #9333ea); /* Blue to purple */
+  color: white;
+  padding: 80px 20px;
 }
 
-/* ====== SECTIONS ====== */
+.hero button {
+  background-color: #facc15;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero button:hover {
+  background-color: #fde047;
+}
+
+/* --- About Me section --- */
 section {
-  padding: 40px 20px;
   text-align: center;
+  padding: 50px 20px;
 }
 
-h2 {
-  margin-bottom: 20px;
-  font-size: 1.8rem;
-  color: #222;
+section h3 {
+  color: #1e3a8a;
 }
 
-/* ====== SKILLS SECTION ====== */
-.skills-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
+section img {
+  width: 120px;
+  border-radius: 50%;
+  border: 3px solid #9333ea;
+  margin: 15px 0;
+}/* --- Header title --- */
+header h1 {
+  color: #facc15; /* Yellow for “My Portfolio” */
 }
 
-.skill-card {
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 15px 20px;
-  width: 150px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-}
-
-.skill-card:hover {
-  transform: translateY(-5px);
-}
-
-/* ====== PROJECTS SECTION ====== */
-.projects-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.project-card {
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  width: 280px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-  padding-bottom: 15px;
-}
-
-.project-card:hover {
-  transform: translateY(-8px);
-}
-
-.project-card img {
-  width: 100%;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-}
-
-.project-card h3 {
-  color: #333;
-  margin: 15px 0 10px;
-}
-
-.project-card p {
-  padding: 0 10px;
-  color: #555;
-}
-
-.project-card a {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 8px 15px;
-  background: #f9b208;
-  color: #fff;
-  border-radius: 5px;
+/* --- Navigation links --- */
+nav a {
+  color: white;
   text-decoration: none;
-  transition: background 0.3s ease;
+  margin: 0 15px;
 }
 
-.project-card a:hover {
-  background: #e49a00;
+nav a:hover {
+  color: #facc15; /* Yellow when hovering */
 }
 
-/* ====== FOOTER ====== */
-footer {
-  background: #222;
-  color: #fff;
+/* --- Hero (Hello section) --- */
+.hero {
   text-align: center;
-  padding: 20px 0;
-  margin-top: 40px;
+  background: linear-gradient(to right, #3b82f6, #9333ea); /* Blue to purple */
+  color: white;
+  padding: 80px 20px;
 }
 
-footer p {
-  margin: 0;
-  font-size: 0.9rem;
+.hero button {
+  background-color: #facc15;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero button:hover {
+  background-color: #fde047;
+}
+
+/* --- About Me section --- */
+section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+section h3 {
+  color: #1e3a8a;
+}
+
+section img {
+  width: 120px;
+  border-radius: 50%;
+  border: 3px solid #9333ea;
+  margin: 15px 0;
 }
